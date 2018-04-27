@@ -1,20 +1,29 @@
 # ASSIGNEMENT-MongoDB
+
 MongoDB
+
 4 TH FEBRUARY 2018
+
 Team Members:
+
 Prashant Wankhede 
 Abhishek Shankarnarayanan 
-ETL Section
-Python modules used:
+
+		ETL Section
+		Python modules used:
 • Codecs
 • Pymongo
+
 Strategy:
+
 Open files (movies.dat, ratings.dat, tags.dat) in a read mode using codecs module as file handler.
 Using lines.strip(), so that then all lines won't be held at the same time. Then splitting each line on ::
 separated values according to column names. Finally, inserting each line using
 db.collectionname.insert_one() command to successfully record into the mongo database “db” at
 location C:\data\db where the server is running at localhost:27017.
+
 Questions
+
 Answers for all questions are as follows including additional personal queries from Question 5 to 7.
 1)What genre is the movie CopyCat in?
 Answer:
